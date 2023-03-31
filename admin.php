@@ -8,6 +8,7 @@ if( empty( $_SESSION['iduser'] ) ){
 } else {
 	include "koneksi.php";
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -80,7 +81,7 @@ if( empty( $_SESSION['iduser'] ) ){
 	<?php
 	}
 	?>
-    </div> <!-- /container -->
+    </div>
 
 
     <!-- Bootstrap core JavaScript, Placed at the end of the document so the pages load faster -->
